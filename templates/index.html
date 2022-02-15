@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实例2.上传下载文件</title>
+</head>
+<body>
+    <h3>上传文件</h3>
+    <form action="http://localhost:5000/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file"  />
+        <input type="submit" value="提交" />
+    </form>
+    <h3>下载文件</h3>
+    <a href="/download/download_sample.txt">download_sample.txt</a>
+</body>
+</html>

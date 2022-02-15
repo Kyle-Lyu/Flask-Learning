@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实例1.上传表单数据-结果页面</title>
+</head>
+<body>
+    <table border = 1>
+        {% for key, value in result.items() %}
+        <tr>
+           <th> {{ key }} </th>
+           <td> {{ value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
